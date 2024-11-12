@@ -148,7 +148,7 @@ body{
 }
 .scrcon{
   width:580px; 
-  height: 590px;
+  height: 550px;
   overflow-x: scroll;
   white-space: nowrap;
   padding: 10px;
@@ -159,10 +159,10 @@ body{
   height: 510px;
   width:350px;
   margin-top: 8px;
-  margin-left: 10px;
-  margin-right: 20px;
-  border-radius:65px 65px 200px 65px;
-  background: #fbd302;
+  margin-left: 3px;
+  margin-right: 5px;
+  border-radius:50px 50px 50px 50px;
+  background: #1C043B8C;
   border: none;
 }
 .hmm{
@@ -178,7 +178,7 @@ body{
 }
 .content {
   opacity: 0;
-  transform: translateY(400px);
+  transform: translateY(300px);
   transition: opacity 1.5s, transform 1s;
 }
 .content.show {
