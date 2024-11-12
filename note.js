@@ -35,3 +35,10 @@ window.addEventListener('scroll', function() {
     }
   });
 });
+document.addEventListener("DOMContentLoaded", function() {
+  if (window.innerWidth > 768) {
+    document.body.innerHTML = "<h1>এই ওয়েবসাইটটি শুধুমাত্র মোবাইল ডিভাইসের জন্য প্রযোজ্য। দয়া করে মোবাইল ডিভাইস ব্যবহার করুন।</h1>";
+    document.body.style.textAlign = "center";
+    document.body.style.marginTop = "20%";
+  }
+});
